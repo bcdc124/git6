@@ -17,7 +17,7 @@ repo -> 저장된 파일(untracked : git이 해당파일은 관리x) -> 관리�
  명령어
 > git init (저장소 설정)
 > git status (상태 확인)
-> git add [untracked 상태의 파일명]
+> git add [untracked 상태의 파일명] || [.](전체파일)
 
 > git config --global user.email "이메일"
 > git config --global user.name "github이름"
@@ -30,3 +30,6 @@ repo -> 저장된 파일(untracked : git이 해당파일은 관리x) -> 관리�
 
 > git checkout [커밋아이디][파일명]
 
+> git remote add origin [https://github.com/bcdc124/git6.git]
+
+> git push origin master
