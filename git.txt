@@ -28,4 +28,5 @@ repo -> 저장된 파일(untracked : git이 해당파일은 관리x) -> 관리�
 
 > git log --oneline
 
-> git checkout [커밋아이디]
+> git checkout [커밋아이디][파일명]
+
